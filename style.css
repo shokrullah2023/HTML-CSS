@@ -1,0 +1,31 @@
+* {
+   
+    color: rgb(48, 147, 142);
+    font-style: normal;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+
+.main-header, nav {
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+nav{
+    float: right;
+    margin-top: -45px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.title {
+    display: inline;
+    margin-left: 50px;
+    text-transform: uppercase;
+    margin-top: -50px;
+}
+
