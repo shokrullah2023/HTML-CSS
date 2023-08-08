@@ -27,7 +27,7 @@ aside {
   background-color: #ffffff;
   border-top: 5px solid rgb(7, 182, 198);
   border-bottom: 5px solid rgb(7, 182, 198);
-  width: 50%;
+  width: 350px;
   background-color: rgb(240, 235, 235);
 }
 
@@ -77,4 +77,37 @@ nav a:link {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.navigate {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.related-post {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.related-link {
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.related-author {
+  margin-left: 10px;
+  font-weight: normal;
 }
