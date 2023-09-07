@@ -211,6 +211,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .grid--center-v {
   align-items: center;
 }
@@ -224,11 +228,11 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
-  padding: 6.4rem;
+  padding: 5.6rem;
 }
 
 .logo {
-  height: 2.4rem;
+  height: 2rem;
   width: 9.6rem;
 }
 
@@ -251,7 +255,7 @@ body {
   border-radius: 0.33rem;
   font-weight: 500;
   font-size: 1.6rem;
-  padding: 1.2rem 2.4rem;
+  padding: 1rem 2.4rem;
   transition: all 0.3s;
 }
 

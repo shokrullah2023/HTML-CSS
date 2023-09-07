@@ -77,13 +77,13 @@
   color: #666;
 }
 
-.logos {
+.logo {
   display: flex;
   justify-content: space-around;
 }
 
-.logos img {
-  height: 3.2rem;
+.logo img {
+  /* height: 1.8; */
   filter: brightness(0);
   opacity: 60%;
 }
@@ -509,4 +509,12 @@
   /* outline: 4px dotted #e67e22;
   outline-offset: 8px; */
   box-shadow: 0 0 0 0.3rem rgba(253, 242, 233, 0.5);
+}
+
+/***********************/
+/* FOOTER */
+/***********************/
+
+.footer {
+  padding: 9.6rem 0;
 }
