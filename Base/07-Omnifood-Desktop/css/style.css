@@ -518,3 +518,39 @@
 .footer {
   padding: 9.6rem 0;
 }
+
+.social-links{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.footer-icon{
+  width: 2rem;
+  height: 2rem;
+  color: #e67e22;
+}
+
+.footer-heading{
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  
+}
+
+.footer-nav a{
+  text-decoration: none;
+  color: #706e6e;
+}
