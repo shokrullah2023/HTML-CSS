@@ -119,6 +119,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .footer{
+        padding: 2.4rem 4.8rem 2.4rem 4.8rem;
+    }
+
     .footer--grid{
         grid-template-columns: repeat(6, 1fr);
     }
@@ -171,9 +175,35 @@
 }
 
 @media (max-width:40em){
-    /* html{
-        font-size: 50%;
-    } */
+    html{
+        font-size: 43.75%;
+    }
+
+    .heading-secondary,
+    .heading-primary{
+        font-size: 2.4rem;
+    }
+
+    .step-number{
+        font-size: 6.4rem;
+    }
+
+    .step-description{
+        font-size: 1.6rem;
+        line-height: 1.6;
+    }
+
+    .grid--2-cols{
+        gap: 1.2rem;
+
+    }
+
+    .section-feature,
+    .section-meals,
+    .section-testimonials,
+    .section-pricing{
+        padding: 3.4rem;
+    }
 
       /* MOBILE NAVIGATION */
       .btn-mobile-nav {
@@ -237,6 +267,15 @@
         opacity: 1;
      }
 
+     .logos {
+        column-gap: 1.2rem;
+        
+     }
+
+     .section-feature{
+        padding: 3.6rem 0 2.4rem 0;
+     }
+
      .pricing-plan{
         width: 100%;
         padding:2.4rem;
@@ -258,3 +297,69 @@
      }
 
 }
+
+@media (max-width:28em){
+
+    .grid{
+        row-gap: 4.8rem;
+    }
+
+    .grid--2-cols,
+    .grid--3-cols,
+    .grid--4-cols{
+        grid-template-columns: 1fr;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited{
+        padding: 1.8rem 1.6rem;
+    }
+
+    .section-hero{
+        padding: 2.4rem 0 6.4rem 0;
+    }
+
+    .hero{
+        padding: 0 3.2rem;
+    }
+
+    .grid .diets{
+        justify-self: flex-start;
+    }
+
+    .step-img-box:nth-child(2){
+        grid-row: 1;
+    }
+
+    .step-img-box:nth-child(6){
+        grid-row: 5;
+    } 
+
+    .step-img-box{
+        transform: translateY(2.4rem);
+    }
+
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(4, 1fr);
+        gap:1.2rem
+    }
+
+    .cta{
+        grid-template-columns: 1fr;
+    }
+
+    .cta-img-box{
+        height: 45rem;
+        background-size: cover;
+        grid-row: 1;
+    }
+
+}
+
+
+
