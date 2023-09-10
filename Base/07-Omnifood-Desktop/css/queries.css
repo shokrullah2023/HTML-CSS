@@ -1,0 +1,260 @@
+
+/***********************/
+/* BELOW 1448px (Smaller desktops) */
+/***********************/
+
+@media (max-width:99.3em){
+    .hero{
+        max-width: 140rem;
+    }
+    .heading-primary{
+        font-size: 3.6rem;
+    }
+    .gallery{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+
+
+/***********************/
+/* BELOW 1300px (Landscape Tablets) */
+/***********************/
+
+@media (max-width: 81.25em){
+    html{
+        font-size: 56.25%;
+    }
+
+    .heading-primary{
+        font-size: 3rem;
+    }
+
+    .hero-description{
+        font-size:1.8rem;
+    }
+
+    .heading-secondary{
+        font-size: 3rem;
+    }
+
+    .heading-tertiary{
+        font-size: 2rem;
+    }
+
+    .testimonial-container{
+        padding: 8.4rem 2.8rem;
+    }
+
+}
+
+/***********************/
+/* BELOW 1100px (Tablets) */
+/***********************/
+
+@media (max-width:68.75em){
+    html{
+        font-size: 50%;
+    }
+
+    .section-hero{
+        padding: 4.6rem 4.6rem;
+    }
+
+    .hero{
+        gap: 4.6rem;
+    }
+
+    .btn:link,
+    .btn:visited{
+        font-size: 1.6rem;
+        padding: 1rem 2rem;
+        align-items: center;
+    }
+
+    .section-testimonials{
+        gap: 2.4rem;
+    }
+
+    .testimonials{
+        column-gap: 2rem;
+    }
+
+    .grid{
+        column-gap: 3.2rem;
+    }
+}
+
+@media (max-width:49em){
+
+    .hero{
+        grid-template-columns: 1fr;
+        gap: 8rem;
+    }
+    .hero-text-box,
+    .hero-img-box{
+        text-align: center;
+    }
+
+    .hero-img{
+        width: 60%;
+    }
+    
+    .grid{
+        gap: 3.2rem;
+        column-gap: 2.4rem;
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+
+    .grid .diets{
+        grid-column: 1/ -1;
+        justify-self: center;
+        /* align-self: center; */
+    }
+
+    .grid--4-cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--3-cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer--grid{
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .main-nav-list{
+        gap: 0.6rem;
+    }
+
+    .hero-description{
+        align-items: center;
+    }
+
+    .delivered-meals{
+        justify-content: center;
+        margin-top: 2.4rem;
+    }
+    
+    .step-number{
+        font-size: 7.4rem;
+    }
+
+    .section-meals{
+        padding: 0.8rem;
+    }
+
+    .meal-content{
+        padding: 2.4rem 1.2rem 3.2rem 1.2rem;
+    }
+
+    .section-testimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .gallery{
+        grid-template-columns: repeat(6 , 1fr);
+    }
+
+    .cta {
+        grid-template-columns: 3fr 2fr;
+    }
+    
+    .cta-form{
+        grid-template-columns: 1fr;
+    }
+
+    .btn--form{
+        margin-top: 3.6rem;
+    }
+
+}
+
+@media (max-width:40em){
+    /* html{
+        font-size: 50%;
+    } */
+
+      /* MOBILE NAVIGATION */
+      .btn-mobile-nav {
+        display: block;
+     }
+
+     .main-nav{
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease-in;
+
+        /* Hide navigation */
+        /* Allows NO transition at all */
+        /* display:none */
+
+        /* Hide it visually*/
+        opacity: 0;
+
+        /* 2) Make it unaccessible to mouse and keyboard */
+        pointer-events: none;
+
+        /* 3) Hide it from screen readers*/
+        visibility: hidden;
+     }
+
+     .nav-open .main-nav{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+     }
+
+     .nav-open .icon-mobile-nav[name="close-outline"]{
+        display: block;
+     }
+
+     .nav-open .icon-mobile-nav[name="menu-outline"]{
+        display: none;
+     }
+
+     .main-nav-list{
+        flex-direction: column;
+        gap: 4.8rem;
+     }
+
+     .main-nav-link:link,
+     .main-nav-link:visited{
+        font-size: 3.2rem;
+     }
+
+     .nav-open .main-nav{
+        opacity: 1;
+     }
+
+     .pricing-plan{
+        width: 100%;
+        padding:2.4rem;
+     }
+
+     .cta-text-box{
+        padding: 3.6rem 4.6rem 4.6rem 4.6rem;
+     }
+
+     .nav-col{
+        grid-row: 1;
+        grid-column: span 2;
+        margin-bottom: 3.2rem;
+     }
+
+     .logo-col, .address-col {
+        grid-column: span 3;
+        
+     }
+
+}
